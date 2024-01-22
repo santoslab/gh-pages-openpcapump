@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SAnToS Open PCA Pump Artifacts</title>
+    <link>https://openpcapump.santoslab.org/</link>
+    <description>Recent content on SAnToS Open PCA Pump Artifacts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://openpcapump.santoslab.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://openpcapump.santoslab.org/artifacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openpcapump.santoslab.org/artifacts/</guid>
+      <description>Artifacts Operational Concepts (Formal Use Cases) Requirements Requirements blah .. blah
+Open PCA Pump Requirements Use Cases and Requirements (pdf) Formal Architecture Specification with Behavior Contracts Open PCA Pump AADL Architecture Specification (zip) Architecture-compliant Component Application Code with SMT-based Verification to Contracts Using Logika
+Testing of Component Application Code to Contracts Verification Component Application Code to Contracts with Logika (developer friendly SMT-based verification) Safety Case Open PCA Pump Safety Case (pdf) </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://openpcapump.santoslab.org/lectures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openpcapump.santoslab.org/lectures/</guid>
+      <description>Lectures Lecture slides are available to support the use of the Open PCA Pump Artifacts in teaching.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://openpcapump.santoslab.org/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openpcapump.santoslab.org/overview/</guid>
+      <description>Overview The SAnToS Lab Open PCA Pump Artifacts provide an end-to-end example of model-based development (with integrated formal methods) of the software for an &amp;ldquo;at scale&amp;rdquo; medical device.
+The artifacts were developed in cooperation with US FDA and medical device industry engineers to illustrate best practices in rigorous engineering for medical devices.
+The artifacts include operational concepts (formal use cases), requirements, formal architecture models, formal behavioral contracts in models and code, testing and formal verification, and an assurance case.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://openpcapump.santoslab.org/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openpcapump.santoslab.org/resources/</guid>
+      <description>Resources This page provides links to resources that may be helpful in understanding the use of PCA pumps in clinical settings, PCA pump features, and safety issues.
+Clinical Training Videos for PCA Pumps Clinical training videos form Columbia Gorge Community College
+PCA Introduction (video) PCA Setup I (video) PCA Setup II [(video)] (http://www.youtube.com/watch?v=kXaMW754Hk4) PCA Initiation (video) PCA Manage I (video) PCA Manage II (video) PCA overview from hunterrobert2004 Youtube channel</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://openpcapump.santoslab.org/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://openpcapump.santoslab.org/tools/</guid>
+      <description>Tools The Open PCA Pump Artifacts make use of the following tools.
+BLESS
+Sireum
+Sireum is a programming language, software engineering, and formal methods framework developed at Kansas State University. This class will use Slang (the Sireum programming Language) and Logika (an automated SMT-based verification environment for Slang)
+Download and installation instructions &amp;ndash; installation based on git sources is recommended Video overview of Slang and Logika </description>
+    </item>
+    
+  </channel>
+</rss>
