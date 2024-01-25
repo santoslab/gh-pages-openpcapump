@@ -12,9 +12,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://openpcapump.santoslab.org/artifacts/</guid>
-      <description>Artifacts Operational Concepts (Formal Use Cases) Requirements Requirements blah .. blah
-Open PCA Pump Requirements Use Cases and Requirements (pdf) Formal Architecture Specification with Behavior Contracts Open PCA Pump AADL Architecture Specification (zip) Architecture-compliant Component Application Code with SMT-based Verification to Contracts Using Logika
-Testing of Component Application Code to Contracts Verification Component Application Code to Contracts with Logika (developer friendly SMT-based verification) Safety Case Open PCA Pump Safety Case (pdf) </description>
+      <description>Artifacts A primary goal of the Open PCA Pump project is to provide realistic system development that are aligned and provide traceability across the development cycle.
+Several important artifacts (in particular the presentation of use cases and requirements) were inspired by the FAA Requirements Engineering Management Handbook (REMH).
+The following artifacts are currently available.
+System Overview and Operational Concepts The System Overview provides an high-level description of the pump device, its medical purpose, the care-giving context into which it is deployed, and its interactions with people and equipment in the context.</description>
     </item>
     
     <item>

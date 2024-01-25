@@ -5,9 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Artifacts Operational Concepts (Formal Use Cases) Requirements Requirements blah .. blah
-Open PCA Pump Requirements Use Cases and Requirements (pdf) Formal Architecture Specification with Behavior Contracts Open PCA Pump AADL Architecture Specification (zip) Architecture-compliant Component Application Code with SMT-based Verification to Contracts Using Logika
-Testing of Component Application Code to Contracts Verification Component Application Code to Contracts with Logika (developer friendly SMT-based verification) Safety Case Open PCA Pump Safety Case (pdf) " />
+<meta name="description" content="Artifacts A primary goal of the Open PCA Pump project is to provide realistic system development that are aligned and provide traceability across the development cycle.
+Several important artifacts (in particular the presentation of use cases and requirements) were inspired by the FAA Requirements Engineering Management Handbook (REMH).
+The following artifacts are currently available.
+System Overview and Operational Concepts The System Overview provides an high-level description of the pump device, its medical purpose, the care-giving context into which it is deployed, and its interactions with people and equipment in the context." />
 <meta name="keywords" content="formal methods, examples, artifacts, model-based development, rigorous digital engineering, software engineering, verification, validation, testing" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
@@ -43,19 +44,21 @@ Testing of Component Application Code to Contracts Verification Component Applic
 
 
 <meta itemprop="name" content="">
-<meta itemprop="description" content="Artifacts Operational Concepts (Formal Use Cases) Requirements Requirements blah .. blah
-Open PCA Pump Requirements Use Cases and Requirements (pdf) Formal Architecture Specification with Behavior Contracts Open PCA Pump AADL Architecture Specification (zip) Architecture-compliant Component Application Code with SMT-based Verification to Contracts Using Logika
-Testing of Component Application Code to Contracts Verification Component Application Code to Contracts with Logika (developer friendly SMT-based verification) Safety Case Open PCA Pump Safety Case (pdf) ">
+<meta itemprop="description" content="Artifacts A primary goal of the Open PCA Pump project is to provide realistic system development that are aligned and provide traceability across the development cycle.
+Several important artifacts (in particular the presentation of use cases and requirements) were inspired by the FAA Requirements Engineering Management Handbook (REMH).
+The following artifacts are currently available.
+System Overview and Operational Concepts The System Overview provides an high-level description of the pump device, its medical purpose, the care-giving context into which it is deployed, and its interactions with people and equipment in the context.">
 
-<meta itemprop="wordCount" content="71"><meta itemprop="image" content="https://openpcapump.santoslab.org"/>
+<meta itemprop="wordCount" content="753"><meta itemprop="image" content="https://openpcapump.santoslab.org"/>
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://openpcapump.santoslab.org"/>
 
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Artifacts Operational Concepts (Formal Use Cases) Requirements Requirements blah .. blah
-Open PCA Pump Requirements Use Cases and Requirements (pdf) Formal Architecture Specification with Behavior Contracts Open PCA Pump AADL Architecture Specification (zip) Architecture-compliant Component Application Code with SMT-based Verification to Contracts Using Logika
-Testing of Component Application Code to Contracts Verification Component Application Code to Contracts with Logika (developer friendly SMT-based verification) Safety Case Open PCA Pump Safety Case (pdf) "/>
+<meta name="twitter:description" content="Artifacts A primary goal of the Open PCA Pump project is to provide realistic system development that are aligned and provide traceability across the development cycle.
+Several important artifacts (in particular the presentation of use cases and requirements) were inspired by the FAA Requirements Engineering Management Handbook (REMH).
+The following artifacts are currently available.
+System Overview and Operational Concepts The System Overview provides an high-level description of the pump device, its medical purpose, the care-giving context into which it is deployed, and its interactions with people and equipment in the context."/>
 
 
 
@@ -207,23 +210,88 @@ Testing of Component Application Code to Contracts Verification Component Applic
 
             <div class="post-content">
                 <h1 id="artifacts">Artifacts</h1>
-<h2 id="operational-concepts-formal-use-cases">Operational Concepts (Formal Use Cases)</h2>
+<p>A primary goal of the Open PCA Pump project is to provide realistic system development that are aligned and provide traceability across the development cycle.</p>
+<p>Several important artifacts (in particular the presentation of use cases and requirements) were inspired by the <a href="http://pub.santoslab.org/high-assurance/module-requirements/reading/FAA-DoT-Requirements-AR-08-32.pdf">FAA Requirements Engineering Management Handbook (REMH)</a>.</p>
+<p>The following artifacts are currently available.</p>
+<h2 id="system-overview-and-operational-concepts">System Overview and Operational Concepts</h2>
+<p>The System Overview provides an high-level description of the pump device, its medical purpose, the
+care-giving context into which it is deployed, and its interactions with people and equipment in the context.
+The Operational Concepts presents detailed use cases and exception cases, derived from stakeholders&rsquo; interests and goals, following the methodology presented in the FAA&rsquo;s REMH.  The use cases describe normal operation in the different usage modes supported by the pump.  Exception cases describe response to hazards or other deviations from expected operation.</p>
+<p>Both use and exception cases were developed as <em>use case maps</em> &ndash; graphical depictions of use case actions, actors, and branches &ndash; using <a href="https://github.com/JUCMNAV/">jUCMNav</a>.  Textual use and exception cases correspond to their use case maps.</p>
+<p>To facilitate cross-referencing in Latex sources of the Systems Overview, Operational Concepts, and Requirements, these artifacts are all presented in the same file (see the PDF file linked below in the Requirements section).</p>
 <h2 id="requirements">Requirements</h2>
-<p>Requirements blah .. blah</p>
+<p>The OpenPCA Pump Requirements provide an
+express the infusion functionality, information input/output over the
+operator interface (including alarm notifications),
+validation and safeguards of user-entered infusion settings,
+functionality of risk controls for system faults and
+exceptional circumstances.</p>
 <ul>
-<li>Open PCA Pump Requirements Use Cases and Requirements <a href="http://pub.santoslab.org/open-pca-pump/artifacts/Open-PCA-Pump-Requirements.pdf">(pdf)</a></li>
+<li>Open PCA Pump System Overview, Use Cases, and Requirements <a href="http://pub.santoslab.org/open-pca-pump/artifacts/Open-PCA-Pump-Requirements.pdf">(pdf)</a></li>
 </ul>
 <h2 id="formal-architecture-specification-with-behavior-contracts">Formal Architecture Specification with Behavior Contracts</h2>
+<p>The archiecture specification provides
+a hierarchical decomposition of subsystems and components into smaller, simpler components that interact solely through well-defined interfaces.<br>
+The OpenPCA Pump Project adopts a
+<em>architecture-model-centric</em> approach to
+critical system development and assurance that emphasizes the use of
+formally specified architectures as the ``scaffolding&rsquo;&rsquo; through which
+many different development artifacts and activities are organized and
+synchronized.   For example, the use-cases in the ConOps document present
+system interactions with users and its environment in terms of
+interaction points that are modeled in the architecture.
+The system requirements are allocated
+to components in the high-level, functional architecture model.
+Architecturally-oriented requirements, such as independence of the
+Open PCA Pump infusion control system and safety subsystem, are
+reflected in the architecture model.</p>
+<p>Due its central role in linking the various artifacts, it&rsquo;s crucial
+that the chosen architecture modeling framework provides a strong
+semantic interpretation for the modeling elements.  For example, the
+architecture modeling language needs to adhere to a semantics for
+threading and inter-component communication to enable behavioral
+annotations such as the BLESS interface contracts and hazard
+analyses to have an interpretation that is correct with respect to the
+code that is generated from the architecture models.   Moreover, the
+architecture language needs to include model elements representing common
+features of embedded systems including real-time threading that can be
+analyzed at the model level for schedulability and latency,
+non-blocking communication between components, and binding of logical software
+to physical processors and communication buses.</p>
+<p>AADL was chosen as the architecture modeling language for the Open PCA
+Pump because it provides the capabilities described above, and because
+it&rsquo;s annex mechanism allows extension of the language to support different forms of analysis
+and verification of embedded systems.</p>
 <ul>
 <li>Open PCA Pump AADL Architecture Specification <a href="http://pub.santoslab.org/open-pca-pump/artifacts/open-pca-pump-aadl.zip">(zip)</a></li>
 </ul>
-<h2 id="architecture-compliant-component-application-code">Architecture-compliant Component Application Code</h2>
-<p>with SMT-based Verification to Contracts Using Logika</p>
-<h2 id="testing-of-component-application-code-to-contracts">Testing of Component Application Code to Contracts</h2>
-<h2 id="verification-component-application-code-to-contracts-with-logika-developer-friendly-smt-based-verification">Verification Component Application Code to Contracts with Logika (developer friendly SMT-based verification)</h2>
-<h2 id="safety-case">Safety Case</h2>
+<h2 id="architecture-aligned-behavioral-specifications">Architecture-aligned Behavioral Specifications</h2>
+<p>Component requirements are refined to formal interface
+behavioral specifications in <a href="http://multitude.net">BLESS</a> that are included the architecture
+model, and component behaviors are specified using BLESS state-transition machines.</p>
+<p>BLESS specifications are included in the AADL architecture artifacts above.</p>
+<h2 id="assurance-case">Assurance Case</h2>
+<p>The OpenPCA Pump assurance case is presented using the <a href="https://www.argevide.com/home/">NOR-STA</a>
+assurance case tool.<br>
+The assurance case provides a structured argument that the system implementation
+performs the intended function defined by its requirements
+with acceptable safety.
+In the medical domain, as in other safety- and security-critical domains,
+manufacturers need to present evidence to
+certification bodies and/or regulatory agencies that their products
+meet their specifications and are safe and secure.
+Assurance cases are increasing being used as a means
+to convey to stakeholders outside the manufacturering organization the
+claims that are being made about a product&rsquo;s functional, safety, and
+security properties along with the evidence that supports those
+claims.</p>
+<p>Industry engineers can use the assurance case to understand how to
+develop an assurance case for a realistic product and link it to other
+development artifacts.   Researchers can use the assurance as an
+example for comparing different assurance notations and techniques for providing semi-automated audits
+of assurance cases.</p>
 <ul>
-<li>Open PCA Pump Safety Case <a href="http://pub.santoslab.org/open-pca-pump/artifacts/Open-PCA-Pump-Safety-Case.pdf">(pdf)</a></li>
+<li>Open PCA Pump Assurance Case <a href="http://pub.santoslab.org/open-pca-pump/artifacts/Open-PCA-Pump-Safety-Case.pdf">(pdf)</a></li>
 </ul>
 
             </div>
